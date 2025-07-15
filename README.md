@@ -31,5 +31,10 @@ pip install -r requirements.txt
 # 4. Set your OpenAI API key in a `.env` file
 echo "OPENAI_API_KEY=your-key-here" > .env
 
+git clone https://github.com/ahtashamhussain/Diet_Chatbot.git
+cd Diet_Chatbot
+pip install -r requirements.txt
+streamlit run app.py
+
 # 5. Start the server
 uvicorn main:app --reload
